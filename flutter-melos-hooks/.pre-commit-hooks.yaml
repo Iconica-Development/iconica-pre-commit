@@ -4,5 +4,3 @@
   language: script
   args: ["."]
   pass_filenames: false
-
-

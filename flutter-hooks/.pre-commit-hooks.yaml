@@ -1,0 +1,6 @@
+- id: flutter-check
+  name: Flutter Format + Analyze
+  entry: flutter-hooks/run_flutter_check.sh
+  language: script
+  args: ["."]
+  pass_filenames: false

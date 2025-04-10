@@ -1,3 +1,10 @@
+- id: flutter-check
+  name: Flutter Format + Analyze
+  entry: flutter-hooks/run_flutter_check.sh
+  language: script
+  args: ["."]
+  pass_filenames: false
+
 - id: flutter-melos-check
   name: Flutter Melos Pre-commit
   entry: flutter-melos-hooks/run_flutter_melos_check.sh
